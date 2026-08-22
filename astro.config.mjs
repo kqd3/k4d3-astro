@@ -11,4 +11,9 @@ export default defineConfig({
   },
 
   integrations: [mdx()],
+
+  image: {
+    layout: "constrained",
+    responsiveStyles: true,
+  },
 });
