@@ -25,7 +25,7 @@ const { tag, title, subtitle, background, cover, coverAlt } = Astro.props;
   {
     cover && (
       <div class="case-hero__image">
-        <Image src={cover} alt={coverAlt ?? title} priority />
+        <Image src={cover} alt={coverAlt ?? title} width={1248} priority />
       </div>
     )
   }

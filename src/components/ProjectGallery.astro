@@ -22,8 +22,7 @@ const { images = [] } = Astro.props;
           <Image
             src={image.src}
             alt={image.alt}
-            widths={[640, 960, 1248]}
-            loading="lazy"
+            width={1248}
             class="gallery-image"
           />
         </figure>
