@@ -1,0 +1,38 @@
+/* SATOSHI (Variable) */
+
+@font-face {
+  font-display: swap;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 100 900;
+  src:
+    url("../assets/fonts/Satoshi-Variable.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Variable.woff") format("woff");
+}
+
+/* ROBOTO MONO (400, 500, 700) */
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/roboto-mono-v31-latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/roboto-mono-v31-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/roboto-mono-v31-latin-700.woff2") format("woff2");
+}
