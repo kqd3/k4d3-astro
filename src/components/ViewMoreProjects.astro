@@ -1,0 +1,33 @@
+---
+import { ZoomIn } from "@lucide/astro";
+---
+
+<div class="view-more-container">
+  <a href="/work" class="view-more">
+    <ZoomIn class="icon secondary-icon" />
+    VIEW MORE PROJECTS</a
+  >
+</div>
+
+<style>
+  .view-more-container {
+    margin-top: var(--space-lg-2);
+  }
+
+  .view-more {
+    font-family: "Roboto Mono", monospace;
+    font-size: var(--text-heading-sm);
+    line-height: var(--leading-heading);
+    font-weight: bold;
+    color: var(--color-secondary);
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .view-more:hover {
+    color: var(--color-text-level-1);
+  }
+</style>

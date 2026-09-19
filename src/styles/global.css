@@ -127,6 +127,9 @@
   height: var(--text-heading-sm);
   color: var(--color-primary);
 }
+.secondary-icon {
+  color: var(--color-secondary);
+}
 .cert-icon {
   width: var(--text-heading-md);
   height: var(--text-heading-md);

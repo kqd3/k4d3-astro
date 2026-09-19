@@ -5,6 +5,7 @@ import { getCollection, render } from "astro:content";
 import Container from "../../components/Container.astro";
 import { Image } from "astro:assets";
 import ProjectGallery from "../../components/ProjectGallery.astro";
+import ViewMoreProjects from "../../components/ViewMoreProjects.astro";
 
 export async function getStaticPaths() {
   const projects = await getCollection("projects");
@@ -69,6 +70,8 @@ import background from "../../assets/background10.svg";
     <!-- <div class="case-gallery">
       <ProjectGallery images={project.data.images} />
     </div> -->
+
+    <ViewMoreProjects />
   </Container>
 </Layout>
 

@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import Container from "../../components/Container.astro";
 import PageHeader from "../../components/PageHeader.astro";
 import { SquareArrowOutUpRight } from "@lucide/astro";
+import ViewMoreProjects from "../../components/ViewMoreProjects.astro";
 import { Image } from "astro:assets";
 // IMPORT IMAGES
 import gpStackedLogo from "../../assets/images/grand-place/GrandPlace_StackedLogo.svg";
@@ -220,6 +221,8 @@ const project = entry.data;
         class="resize"
       />
     </div>
+
+    <ViewMoreProjects />
   </Container>
 </Layout>
 

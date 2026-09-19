@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import Container from "../../components/Container.astro";
 import PageHeader from "../../components/PageHeader.astro";
+import ViewMoreProjects from "../../components/ViewMoreProjects.astro";
 import { Image } from "astro:assets";
 // IMPORT IMAGES
 import twl from "../../assets/images/lettering/truth-will-last.svg";
@@ -187,6 +188,8 @@ const project = entry.data;
   </div>
 
   <div class="divider simple-wave-end"></div>
+
+  <ViewMoreProjects />
 </Layout>
 
 <style>
