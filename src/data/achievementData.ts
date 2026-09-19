@@ -9,7 +9,7 @@ export const achievementData = [
     icon: GraduationCap,
   },
   {
-    title: "CompTIA A+ Certification",
+    title: "CompTIA Security+ Certification",
     issuer: "CompTIA",
     date: "Expected December 2026",
     icon: BadgeCheck,
